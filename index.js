@@ -40,3 +40,6 @@ clickImage ("assets/sword.png", 500, 405)
 clickImage ("assets/shield.png", 165, 185)
 // staff
 clickImage ("assets/staff.png", 600, 100)
+
+// ••••••••••••••••• BACKGROUND ••••••••••••••••• \\
+// TODO: ?
