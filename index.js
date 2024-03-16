@@ -29,8 +29,9 @@ function clickImage (url, left, bottom){
     deletImage.style.bottom = bottom + "px"
     document.body.append(deletImage)
 
-    deletImage.addEventListener("click", function(){
+    deletImage.addEventListener("dblclick", function(){
         deletImage.remove() 
+        console.log("Works")
     })
 }
 
