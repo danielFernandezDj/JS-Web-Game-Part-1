@@ -1,5 +1,5 @@
 // ••••••••••••••••• STATIC OBJECTS ••••••••••••••••• \\
-function newImage(url, left, bottom, radius) {
+function newImage(url, left, bottom) {
     let newAsset = document.createElement("img")
     newAsset.src = url
     newAsset.style.position = "fixed"
@@ -31,7 +31,6 @@ function clickImage (url, left, bottom){
 
     deletImage.addEventListener("dblclick", function(){
         deletImage.remove() 
-        console.log("Works")
     })
 }
 
@@ -44,3 +43,4 @@ clickImage ("assets/staff.png", 600, 100)
 
 // ••••••••••••••••• BACKGROUND ••••••••••••••••• \\
 // TODO: ?
+
